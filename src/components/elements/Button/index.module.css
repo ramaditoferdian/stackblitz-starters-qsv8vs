@@ -1,0 +1,11 @@
+.btn {
+  padding: 16px;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.btn--primary {
+  color: white;
+  background-color: #7879F1;
+}

@@ -1,13 +1,17 @@
 import React from 'react';
 import './style.css';
-import Button from './components/Button/Button';
+import Homepage from './components/pages/Homepage/Homepage';
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-      <Button>
-    </div>
+    <>
+      <head>
+        <meta
+          content="width=device-width, initial-scale=1, maximum-scale=5"
+          name="viewport"
+        />
+      </head>
+      <Homepage/>
+    </>
   );
 }
