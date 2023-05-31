@@ -16,3 +16,20 @@
 body {
   overflow-x: hidden;
 }
+
+.icn {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icn-eye-open {
+  background-image: url('./assets/icon/eye-open.svg');
+  width: 20px;
+  height: 20px;
+}
+
+.icn-eye-close {
+  background-image: url('./assets/icon/eye-close.svg');
+  width: 20px;
+  height: 20px;
+}

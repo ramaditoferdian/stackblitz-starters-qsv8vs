@@ -49,7 +49,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1275px) {
 
   .homepage__left-content {
     display: none;
@@ -57,6 +57,8 @@
 
   .homepage__right-content {
     width: 100%;
+    align-items: flex-start;
+    margin-top: 90px;
   }
 
 }

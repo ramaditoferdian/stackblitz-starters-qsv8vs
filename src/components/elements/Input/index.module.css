@@ -1,0 +1,73 @@
+.input--container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  width: 100%;
+  position: relative;
+}
+
+.input--container-checkbox {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+
+  font-size: 16px;
+  font-weight: 400;
+  color: #3E334E;
+}
+
+.input--label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3E334E;
+}
+
+.input--wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  min-width: 0px;
+  position: relative;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #AFA2C3;
+  outline: none;
+
+  display: flex;
+  flex-direction: row;
+
+  font-size: 16px;
+  font-weight: 400;
+  color: #3E334E;
+}
+
+.input--icon {
+  position: absolute;
+  min-width: 20px;
+  min-height: 20px;
+  top: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  padding: 0;
+
+  right: 10px;
+}
+
+.input-checkbox:checked{
+  accent-color: #7879F1;
+}
+
+.error-msg {
+  color: red;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.input--error {
+  border: 1px solid red;
+}

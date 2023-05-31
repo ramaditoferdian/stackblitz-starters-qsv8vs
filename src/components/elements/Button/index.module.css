@@ -3,9 +3,41 @@
   border: none;
   display: flex;
   justify-content: center;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .btn--primary {
   color: white;
   background-color: #7879F1;
+}
+
+.btn--secondary {
+  color: #3E334E;
+  background-color: #FFFFFF;
+  border: 1px solid #3E334E;
+}
+
+.btn--social {
+  color: #3E334E;
+  background-color: #FFFFFF;
+  border: 1px solid #AFA2C3;
+  border-radius: 4px;
+  padding: 12px;
+
+  font-size: 14px;
+  font-weight: 500;
+}
+
+button:hover {
+  filter: brightness(130%);
+}
+
+.btn:disabled{
+  cursor: not-allowed;
+  filter: brightness(50%);
 }
