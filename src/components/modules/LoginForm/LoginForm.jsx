@@ -48,6 +48,7 @@ const LoginForm = () => {
           Remember me: ${rememberMe}
         `
       );
+      await window.location.reload();
     }, 2000);
     
   }
